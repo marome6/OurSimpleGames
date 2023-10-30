@@ -1,0 +1,42 @@
+/*Changing the background and font color*/
+body{
+    background-color: rgb(25,25,25);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Changing th e title style*/
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+/*Setting the size of the moves icons*/
+.moveIcon{
+    height: 70px;
+}
+
+/**/
+.moveButton{
+    background-color: transparent;
+    border: 2px solid white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.result{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.score{
+    margin-top: 60px;
+}
+.resetButton{
+    background-color: white;
+    font-size: 15px;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}

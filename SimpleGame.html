@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Rock Paper Scissors
+        </title>
+       <link rel="stylesheet" href="styles/RPS.css">
+    </head>
+    <body>
+        <h2>Welcome to the game, Select an option and try to beat the computer!..</h2>
+        <p>Rock Paper Scissors</p>
+        <!-- Providing the threee options to the user as buttons-->
+        <button onclick="GenerateComputerMove('Rock');" class="moveButton">
+            <img src="images/RockFinal.png" class="moveIcon"/>
+        </button>
+        <button onclick="GenerateComputerMove('Paper');" class="moveButton">
+            <img src="images/PaperFinal.png" class="moveIcon"/>
+        </button>
+        <button onclick="GenerateComputerMove('Scissors');" class="moveButton">
+            <img src="images/ScissorsFinal.png" class="moveIcon"/>
+        </button>
+        <p class="jsResult"></p>
+        <p class="jsMoves"></p>
+        <p class="jsScore score"></p>
+        <button onclick="resetCounters()" class="resetButton">Reset Score</button>
+
+        <script src="scripts/RPS.js">
+           
+        </script>
+    </body>
+</html>
